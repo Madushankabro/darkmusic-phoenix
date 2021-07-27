@@ -23,7 +23,9 @@ async def play(_, message: Message):
     sender_id = message.from_user.id
     sender_name = message.from_user.first_name
     
-    keyboard = InlineKeyboardMarkup(
+    keyboard = InlineKeyboardMarkup(text="🔊 Channel",
+
+                    url="https://t.me/RIDERIANS")
         [
             [
                 InlineKeyboardButton(
